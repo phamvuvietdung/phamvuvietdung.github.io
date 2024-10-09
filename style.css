@@ -1,0 +1,66 @@
+/* add google font Montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+    height: 100%;
+    align-items: center;
+    background-color: #00bcd4;
+}
+
+.left-container img{
+    width: 70%;
+    height: 70%;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.left-container .left-container-contact{
+    border-top: 2px dashed darkslateblue;
+    /* border-bottom: 2px dashed darkslateblue; */
+}
+
+.left-container .left-container-contact h2{
+    color: whitesmoke;
+    padding-top: 5px;
+}
+
+.left-container .left-container-contact li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.left-container .left-container-contact li:nth-child(1){
+    padding-top: 15px;
+}
+
+.left-container .left-container-contact li i{
+    font-size: 21px;
+    padding-right: 10px;
+}
+
+.left-container .left-container-contact li p{
+    font-size: 18px;
+    color: white;
+}
+
+.left-container .left-container-contact li:nth-child(3) img{
+    width: 33px;
+    padding: 0px 10px 0px 0px;
+    background-color: #00bcd4;
+    color: #00bcd4;
+}
