@@ -15,11 +15,18 @@
     flex-direction: column;
     width: 50%; 
     height: 100%;
-    align-items: center;
+    /* align-items: center; */
     background-color: #00bcd4;
 }
 
-.left-container img{
+
+/* PHẦN THÔNG TIN LIÊN HỆ */
+.left-container .profile-picture{
+    display: flex;
+    justify-content: center;
+}
+
+.left-container .profile-picture img{
     width: 60%;
     height: 60%;
     border-radius: 5px;
@@ -28,19 +35,19 @@
 }
 
 .left-container .left-container-contact{
-    border-top: 2px dashed darkslateblue;
-    /* border-bottom: 2px dashed darkslateblue; */
+    padding: 0px 20px;
 }
 
 .left-container .left-container-contact h2{
     color: whitesmoke;
-    padding-top: 5px;
+    border-top: 2px dashed darkslateblue;
+    padding-top: 10px;
 }
 
 .left-container .left-container-contact li{
     list-style-type: none;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     padding-bottom: 15px;
 }
 
@@ -54,8 +61,12 @@
 }
 
 .left-container .left-container-contact li p{
-    font-size: 18px;
+    font-size: 16px;
     color: white;
+}
+
+.left-container .left-container-contact li:last-child{
+    padding-bottom: 50px;
 }
 
 .left-container .left-container-contact li:nth-child(3) img{
@@ -63,4 +74,31 @@
     padding: 0px 10px 0px 0px;
     background-color: #00bcd4;
     color: #00bcd4;
+}
+
+/* PHẦN THÔNG TIN ĐÀO TẠO CHUNG */
+.left-container .left-container-basicEducation{
+    padding: 0px 20px;
+}
+
+.left-container .left-container-basicEducation h2{
+    color: whitesmoke;
+    border-top: 2px dashed darkslateblue;
+    padding-top: 10px;
+}
+
+.left-container .left-container-basicEducation li{
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 15px;
+    font-size: 15x;
+    color: white;
+}
+
+.left-container .left-container-basicEducation li:nth-child(1){
+    padding-top: 15px;
+}
+
+.left-container .left-container-basicEducation li:last-child{
+    padding-bottom: 50px;
 }
