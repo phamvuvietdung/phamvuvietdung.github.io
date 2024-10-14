@@ -42,6 +42,7 @@
     color: whitesmoke;
     border-top: 2px dashed darkslateblue;
     padding-top: 10px;
+    text-align: justify;
 }
 
 .left-container .left-container-contact li{
@@ -49,6 +50,7 @@
     display: flex;
     /* align-items: center; */
     padding-bottom: 15px;
+    text-align: justify;
 }
 
 .left-container .left-container-contact li:nth-child(1){
@@ -85,6 +87,7 @@
     color: whitesmoke;
     border-top: 2px dashed darkslateblue;
     padding-top: 10px;
+    text-align: justify;
 }
 
 .left-container .left-container-basicEducation li{
@@ -92,6 +95,7 @@
     display: flex;
     padding-bottom: 15px;
     font-size: 15x;
+    text-align: justify;
     color: white;
 }
 
@@ -101,4 +105,56 @@
 
 .left-container .left-container-basicEducation li:last-child{
     padding-bottom: 50px;
+}
+
+/* PHẦN CÁC KỸ NĂNG KHÁC */
+.left-container .left-container-furtherSkills{
+    padding: 0px 20px;
+}
+
+.left-container .left-container-furtherSkills h2{
+    color: whitesmoke;
+    border-top: 2px dashed darkslateblue;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.left-container .left-container-furtherSkills li{
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 15px;
+    font-size: 15x;
+    text-align: justify;
+    color: white;
+}
+
+.left-container .left-container-furtherSkills li:nth-child(1){
+    padding-top: 15px;
+}
+
+.left-container .left-container-furtherSkills li:last-child{
+    padding-bottom: 50px;
+}
+
+/* THẺ LI CUỐI CÙNG Ở PHẦN FUTHERSKILL */
+.left-container .left-container-furtherSkills .demo-link{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container .left-container-furtherSkills .demo-link p{
+    font-size: 15x;
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.left-container .left-container-furtherSkills .demo-link a{
+    text-decoration: none;
+    color: white;
+}
+
+.left-container .left-container-furtherSkills .demo-link a:hover{
+    /* color: red; */
+    font-weight: 900;
 }
